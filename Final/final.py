@@ -19,7 +19,7 @@ def my_form_post():
 
 if __name__ == '__main__':
 	sock = bt.starting()
-	app.run(host='192.168.43.195', port=1111) 
+	app.run() 
     # either leave host empty to use localhost or
     # use the IPV4 address of your laptop
     # you may use your own port too
